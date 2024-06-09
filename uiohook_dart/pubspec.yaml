@@ -1,7 +1,9 @@
 name: uiohook_dart
-description: A sample command-line application.
+description: Cross-platform Desktop keyboard and mouse hooking library
 version: 0.0.1
-# repository: https://github.com/my_org/my_repo
+homepage: https://github.com/rohitsangwan01/uiohook_dart
+repository: https://github.com/rohitsangwan01/uiohook_dart
+issue_tracker: https://github.com/rohitsangwan01/uiohook_dart/issues
 
 environment:
   sdk: ^3.4.3
@@ -12,6 +14,11 @@ dependencies:
 dev_dependencies:
   lints: ^3.0.0
   ffigen: ^12.0.0
+
+platforms:
+  linux:
+  macos:
+  windows:
 
 ffigen:
   output: 'lib/src/generated/generated_bindings.dart'
