@@ -1,5 +1,8 @@
 ## Uiohook
 
+[![uiohook_dart version](https://img.shields.io/pub/v/uiohook_dart?label=uiohook_dart)](https://pub.dev/packages/uiohook_dart)
+[![uiohook_flutter version](https://img.shields.io/pub/v/uiohook_flutter?label=uiohook_flutter)](https://pub.dev/packages/uiohook_flutter)
+
 Cross-platform Desktop keyboard and mouse hooking library, [libuiohook](https://github.com/kwhat/libuiohook) based ffi implementation
 
 ## Getting Started
@@ -96,5 +99,9 @@ Retrieves the double/triple click interval with
 `getMultiClickTime`
 
 Retrieves the mouse acceleration threshold with `hookGetPointerAccelerationThreshold`
+
+## Note
+
+Thanks to kwhat for the [libuiohook](https://github.com/kwhat/libuiohook) project
 
 See the examples for runnable examples of various usages
