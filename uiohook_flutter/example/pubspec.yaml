@@ -1,0 +1,25 @@
+name: example
+description: "Demonstrates how to use the uiohook_dart plugin."
+publish_to: 'none' 
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  uiohook_flutter:
+    path: ../
+  uiohook_dart:
+    path: ../../uiohook_dart/
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
